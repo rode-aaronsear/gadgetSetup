@@ -44,5 +44,5 @@ echo "${VENDOR_NAME}" > "${STRINGS_DIR}/manufacturer"
 echo "${PRODUCT_NAME}" > "${STRINGS_DIR}/product"
 echo "Conf 1" > "${CONFIG_STRINGS_DIR}/configuration"
 ln -s "${HID_FUNCTION_DIR}" "${CONFIG_DIR}"
-echo 20980000.usb > "${GADGET_DIR}/UDC"
+echo ff400000.usb > "${GADGET_DIR}/UDC"
 
