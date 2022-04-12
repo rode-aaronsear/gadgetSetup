@@ -32,7 +32,7 @@ mkdir -p "${HID_FUNCTION_DIR}"
 echo "${PROTOCOL}" > "${HID_FUNCTION_DIR}/protocol"
 echo "${SUBCLASS}" > "${HID_FUNCTION_DIR}/subclass"
 echo "${REPORT_LENGTH}" > "${HID_FUNCTION_DIR}/report_length"
-cat rodecaster.hid > "${HID_FUNCTION_DIR}/report_desc"
+cat rodecaster.bin > "${HID_FUNCTION_DIR}/report_desc"
 
 # general setup
 mkdir -p "${STRINGS_DIR}"
